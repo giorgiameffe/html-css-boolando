@@ -15,18 +15,21 @@
 
 /* Debug */
 
-.debug header {
-    height: 65px;
+header {
     background-color: #ff6900;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding: 20px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -43,7 +46,7 @@
 .containershop {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 130px;
 }
 
 .row {
@@ -140,7 +143,7 @@ h4 {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    color: beige;
+    color: #ffffff;
     justify-content: space-between;
     text-align: start;
     padding: 20px;
