@@ -8,12 +8,23 @@
 }
 
 /* Common */
-* a {
+a {
     text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    text-align: end;
+}
+
+li {
+    padding-right: 10px;
 }
 
 
-/* Debug */
+/* Intestazione */
 
 header {
     background-color: #ff6900;
@@ -43,10 +54,13 @@ header {
     color: #ffff;
 }
 
+/* Sale cards */
+
 .containershop {
     width: 1200px;
     margin: 0 auto;
     margin-top: 130px;
+    margin-bottom: 40px;
 }
 
 .row {
@@ -72,6 +86,8 @@ header {
     font-size: 14px;
 }
 
+/* Top card */
+
 .img-1 {
     display: block;
 }
@@ -88,6 +104,8 @@ header {
     display: block;
 }
 
+/* Discounts bottom card */
+
 .sale {
     color: #ff0000;
     font-weight: bold;
@@ -101,20 +119,38 @@ header {
     background-color: #ff0000;
     padding: 5px 10px;
     position: absolute;
-    bottom: 150px;
+    bottom: 80px;
 }
 
 .environment {
     background-color: #008000;
-    padding: 5px;
+    padding: 5px 10px;
     position: absolute;
-    bottom: 150px;
+    bottom: 80px;
     left: 60px;
 }
 
-.discount, .environment {
+.environment2 {
+    background-color: #008000;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 80px;
+}
+
+.discount, .environment, .environment2 {
     color: #ffffff;
 }
+
+.column > div {
+    color: #000000;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Heart hover */
 
 .heart {
     background-color: #ffffff;
@@ -128,14 +164,9 @@ header {
     color: #ff0000;
 }
 
-h4 {
-    font-size: 16px;
-    font-weight: bold;
-}
+/* Banner footer */
 
-
-.debug footer {
-    height: 90px;
+footer {
     background-color: #000000;
 }
 
@@ -144,24 +175,26 @@ h4 {
     margin: 0 auto;
     display: flex;
     color: #ffffff;
-    justify-content: space-between;
     text-align: start;
     padding: 20px;
+    justify-content: space-between;
 
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    text-align: end;
-}
-
-li {
-    padding-right: 10px;
+.brand, .social {
+    line-height: 30px;
 }
 
 .social {
     text-align: end;
+}
+
+.brand li {
+    font-size: 13px;
+}
+
+.social li {
+    font-size: 20px;
 }
 
 .social ul li:last-child  {
