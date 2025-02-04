@@ -5,6 +5,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Common */
+* a {
+    text-decoration: none;
+}
+
+
 /* Debug */
 
 .debug header {
@@ -21,6 +28,17 @@
     justify-content: space-between;
 }
 
+.logo {
+    flex-grow: 1;
+    height: 35px;
+    width: 150px;
+}
+
+.items {
+    flex-shrink: 0;
+    color: #ffff;
+}
+
 .containershop {
     width: 1200px;
     margin: 0 auto;
@@ -34,12 +52,16 @@
     gap: 40px 20px;
 }
 
-.debug .column {
+.column {
     width: calc(100%/3 - 40px / 3);
     flex-shrink: 0;
-    height: 600px;
+    height: 700px;
     background-color: blueviolet;
     margin-bottom: 30px;
+}
+
+.column img {
+    width: 100%;
 }
 
 .debug footer {
